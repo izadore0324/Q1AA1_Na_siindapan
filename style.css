@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    margin: 10px;
+    padding: 25px;
+    text-align: right;
+    border: 1px solid white;
+    background-color: rgb(247, 192, 12);
+}
+
+#logo{
+    float: left;
+}
+
+
+#links{
+    margin: 22px;
+    display: inline;
+}
+
+#navbar #links a{
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid rgb(247, 192, 12);
+    margin: 15px;
+    opacity: .70;
+    transition: 0.5s;
+}
+
+#navbar #links a:hover{opacity: 1; transition: 0.5s;}
+
+#x{
+    background-color: black; color: white;
+}
+
+#rdt{
+    background-color: rgb(255, 51, 0); color: white;
+}
+
+#fb{
+    background-color: darkblue; color: white;
+}
+.rounded{
+    border-radius: 5px;
+}
+
+.banner{
+    background-image: url(bannnerr.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 62vh;
+}
+
+.banner h2{
+    margin: 10px;
+    padding: 40px 0;
+    color:white;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.banner h2 span{
+    color: #ebce2f;
+}
+
+.banner p{
+    color: white;
+    margin: 10px;
+    font-family: 'Pixelify Sans', cursive;
+    margin-bottom: 20px;
+}
+
+.banner a{
+    padding: 11px 0;
+    margin: 11px;
+    text-decoration: none;
+    background-color: #ebce2f;
+    opacity: .80;
+    transition: 0.5s;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+#footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    margin: 10px;
+    padding: 25px;
+    width: 94.5%;
+    text-align: left;
+    border: 1px solid white;
+    background-color: rgb(247, 192, 12);
+}
+
+#text{
+    text-align: center;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+#footer #links a{
+    opacity: .70;
+    transition: 0.5s;
+}
+
+
